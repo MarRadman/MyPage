@@ -15,6 +15,11 @@ body {
   overflow: hidden; /* no scrollbars */
   user-select: none;
 }
+@media (max-width: 768px) {
+  #image-track {
+    width: 100%;
+  }
+}
   
   #image-track {
     touch-action: pan-y;
