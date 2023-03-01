@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 "use strict";
 const track = document.getElementById("image-track");
 
@@ -37,4 +36,3 @@ window.onmousemove = e => handleOnMove(e);
 window.ontouchstart = e => handleOnDown(e.touches[0]);
 window.ontouchend = e => handleOnUp(e.touches[0]);
 window.ontouchmove = e => handleOnMove(e.touches[0]);
->>>>>>> Stashed changes
