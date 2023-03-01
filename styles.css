@@ -17,6 +17,7 @@ body {
 }
   
   #image-track {
+    touch-action: pan-y;
     display: flex;
     gap: 25px; /* https://css-tricks.com/simple-little-use-case-vmin/ */
     position: absolute;

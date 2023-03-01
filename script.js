@@ -32,3 +32,7 @@ const handleOnMove = e => {
 window.onmousedown = e => handleOnDown(e);
 window.onmouseup = e => handleOnUp(e);
 window.onmousemove = e => handleOnMove(e);
+
+window.ontouchstart = e => handleOnDown(e.touches[0]);
+window.ontouchend = e => handleOnUp(e.touches[0]);
+window.ontouchmove = e => handleOnMove(e.touches[0]);
