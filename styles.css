@@ -29,7 +29,6 @@ body {
     margin: 0 10px;
   }
 }
-  
   #image-track {
     touch-action: pan-y;
     display: flex;
