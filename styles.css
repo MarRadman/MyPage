@@ -71,10 +71,10 @@ body {
   }
 
   #image-track > .image:not(:hover) {
-    width: 30vmin;  /* Change the width of the images */
+    width: 12vmin;  /* Change the width of the images */
     transform: none;
     z-index: auto;
-    transition: 1.5s;
+    transition: 0.8s;
   }
   
   * {
